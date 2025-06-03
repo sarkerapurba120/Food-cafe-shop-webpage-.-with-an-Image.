@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh(Dhaka) Cafe-Food Delivery - Bangladesh(BD)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: #ff6b6b;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem 0;
+    background: #f8f9fa;
+}
+
+.search-bar {
+    margin-top: 1rem;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 0.5rem 1rem;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.restaurants {
+    padding: 2rem 5%;
+}
+
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.restaurant-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Bangladesh(Dhaka) Cafe-Food Delivery - FoodExpress BD</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button>Login</button><br><br>
+            <button>Sign Up</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Order Food Online Across Bangladesh</h2>
+            <p>Get your favorite meals delivered to your doorstep!</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Enter your location...">
+                <button>Find Food</button>
+            </div>
+        </section>
+
+        <section class="restaurants">
+            <h3>Popular Restaurants</h3>
+            <div class="restaurant-grid">
+                <!-- Restaurant cards will go here -->
+                <div class="restaurant-card">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Restaurant">
+                    <h4>Burger King</h4>
+                    <p>Fast Food • Dhaka</p>
+                </div>
+                <!-- More cards -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Food Express BD. All Rights Reserved.</p>
+    </footer>
+
+     <a href="page2.html" class="btn">Next Page →</a>
+    <style>
+    .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+   caption-side:right;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+</style> 
+</body>
+</html>

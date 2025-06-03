@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button with Link and Text</title>
+    <style>
+        .container {
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .text {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="text">এই বাটনে ক্লিক করে পরের পেজে যান</p>
+        <a href="https://example.com" class="button">ক্লিক করুন</a>
+    </div>
+</body>
+</html>
+
+<div class="pagination">
+    <a href="page1.html">1</a>
+    <a href="page2.html" class="active">2</a>
+    <a href="page3.html">3</a>
+</div>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMTS Dashboard</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background: white;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+      color: #2A3F54;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .subtitle {
+      color: #5D6D7E;
+      font-size: 0.9rem;
+    }
+    .nav-tabs {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .nav-tabs a {
+      color: #5D6D7E;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .nav-tabs a:hover {
+      color: #33A1FF;
+    }
+    .welcome-section {
+      background: white;
+      margin: 2rem;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .welcome-title {
+      font-size: 1.5rem;
+      color: #2A3F54;
+    }
+    .quick-access {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .quick-access button {
+      background: #33A1FF;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .stats {
+      display: flex;
+      gap: 1rem;
+      margin: 2rem;
+    }
+    .stat-card {
+      background: white;
+      flex: 1;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 2rem;
+      color: #2A3F54;
+    }
+    .stat-label {
+      color: #5D6D7E;
+    }
+    .alerts {
+      background: white;
+      margin: 2rem;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .alert-title {
+      color: #FF6B6B;
+      font-weight: bold;
+    }
+    .alert-item {
+      margin-top: 0.5rem;
+      padding: 0.5rem;
+      border-left: 3px solid #FF6B6B;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">AMTS</div>
+    <div class="subtitle">Advanced Medical Technology Solutions</div>
+    <div class="nav-tabs">
+      <a href="#">Home</a>
+      <a href="#">Health</a>
+      <a href="#">Analytics</a>
+      <a href="#">Settings</a>
+    </div>
+  </div>
+  <div class="welcome-section">
+    <div class="welcome-title">Welcome, Doctor</div>
+    <p>Access patient data and medical analytics</p>
+    <div class="quick-access">
+      <button>Patients</button>
+      <button>Prescriptions</button>
+      <button>Reports</button>
+      <button>Appointments</button>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-number">125</div>
+      <div class="stat-label">Today</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">892</div>
+      <div class="stat-label">This Week</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">3,245</div>
+      <div class="stat-label">This Month</div>
+    </div>
+  </div>
+  <div class="alerts">
+    <div class="alert-title">Critical Alerts</div>
+    <div class="alert-item">
+      <strong>Patient #4521</strong><br>
+      Abnormal ECG detected
+
+      <a href="page2.html" class="btn">Next Page →</a>
+      <a href="https://example.com" class="button">Click Here</a>
+
+      <a href="page2.html">Go to Page 2</a>
+    </div>
+  </div>
+</body>
+</html>
